@@ -41,6 +41,7 @@ address {
   color: var(--black-color);
 }
 
+.logo-dark:hover,
 .logo-dark:focus {
   color: var(--black-color);
 }

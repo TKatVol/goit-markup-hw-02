@@ -1,6 +1,3 @@
-/*font-family: "Raleway", sans-serif;
-font-family: "Roboto", sans-serif;*/
-
 :root {
   --text-font: "Roboto", sans-serif;
   --text-logo: "Raleway", sans-serif;
@@ -28,8 +25,9 @@ ul {
 }
 
 address {
-    font-style: normal;
+  font-style: normal;
 }
+
 /*==== HEADER ====*/
 
 .logo-dark {
@@ -98,6 +96,7 @@ address {
 }
 
 .modal-btn {
+  font-family: var(--text-font);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
@@ -209,10 +208,9 @@ address {
   font-weight: 400l;
   font-size: 14px;
   line-height: 1.715;
-  l  etter-spacing: 0.03em;
+  letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-
 
 .contact-addres-link:hover,
 .contact-addres-link:focus {
@@ -221,9 +219,10 @@ address {
 
 /*==== END FOOTER ====*/
 
-/*====  PORTFOLIO FILTER ====*/
+/*====  PORTFOLIO  ====*/
 
 .filter-btn {
+  font-family: var(--text-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.625;
@@ -246,10 +245,10 @@ address {
 }
 
 .portfolio-text {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.875;
-letter-spacing: 0.03em;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
 }
 
-/*====  PORTFOLIO FILTER  END====*/
+/*====  END PORTFOLIO  ====*/

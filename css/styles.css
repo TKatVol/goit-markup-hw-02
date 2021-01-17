@@ -1,0 +1,254 @@
+/*font-family: "Raleway", sans-serif;
+font-family: "Roboto", sans-serif;*/
+
+:root {
+  --text-font: "Roboto", sans-serif;
+  --text-logo: "Raleway", sans-serif;
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --title-color: #212121;
+  --text-color: #757575;
+  --text-light-color: #ffffff;
+  --background-light-color: #ffffff;
+  --background-dark-color: #2f303a;
+}
+
+body {
+  font-family: var(--text-font);
+  color: var(--text-color);
+  background-color: var(--background-light-color);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+address {
+    font-style: normal;
+}
+/*==== HEADER ====*/
+
+.logo-dark {
+  font-family: var(--text-logo);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  color: var(--black-color);
+}
+
+.logo-dark:focus {
+  color: var(--black-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accent-color);
+}
+.current-link {
+  color: var(--accent-color);
+}
+
+.contacts-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: var(--accent-color);
+}
+
+/*==== END HEADER ====*/
+
+/*==== HERO ====*/
+
+.hero {
+  background-color: var(--background-dark-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.364;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-light-color);
+}
+
+.modal-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--text-light-color);
+  background-color: var(--accent-color);
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: var(--accent-color);
+  background-color: var(--background-light-color);
+}
+
+/*==== END HERO ====*/
+
+/*==== FEATURES ====*/
+
+.features-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-color);
+}
+
+.features-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+/*==== END FEATURES ====*/
+
+/*==== SERVICES ====*/
+
+.services-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+/*==== END SERVICES ====*/
+
+/*====  OUR TEAM ====*/
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-color);
+}
+
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.188;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/*====  END OUR TEAM ====*/
+
+/*====  FOOTER ====*/
+
+.footer {
+  background-color: var(--background-dark-color);
+}
+
+.logo-light {
+  color: var(--text-light-color);
+}
+
+.light:focus {
+  color: var(--text-light-color);
+}
+
+.contact-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.715;
+  letter-spacing: 0.03em;
+  color: var(--text-light-color);
+}
+
+.contact-address:hover,
+.contact-address:focus {
+  color: var(--text-light-color);
+}
+
+.contact-addres-link {
+  font-weight: 400l;
+  font-size: 14px;
+  line-height: 1.715;
+  l  etter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+.contact-addres-link:hover,
+.contact-addres-link:focus {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*==== END FOOTER ====*/
+
+/*====  PORTFOLIO FILTER ====*/
+
+.filter-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.625;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+  background-color: var(--accent-color);
+  color: var(--text-light-color);
+}
+
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--title-color);
+}
+
+.portfolio-text {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.875;
+letter-spacing: 0.03em;
+}
+
+/*====  PORTFOLIO FILTER  END====*/

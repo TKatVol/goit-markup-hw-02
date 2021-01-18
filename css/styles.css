@@ -193,7 +193,8 @@ address {
   color: var(--text-light-color);
 }
 
-.logo-light:hover .logo-light:focus {
+.logo-light:hover,
+.logo-light:focus {
   color: var(--text-light-color);
 }
 
